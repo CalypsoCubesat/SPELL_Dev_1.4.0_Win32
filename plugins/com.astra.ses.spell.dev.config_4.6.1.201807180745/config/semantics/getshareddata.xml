@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/> 
+			<modifier name="Scope" type="any" /> 
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+            <argument position="0" type="string,list,name"/>
+		</required>
+		<allowed>
+		</allowed>
+	</arguments>
+</rule>
+

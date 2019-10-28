@@ -1,0 +1,74 @@
+<context id="RemoteSPELLScorpio">
+
+	<!-- =================================================================== -->
+	<!-- CONTEXT IDENTIFICATION -->
+	<!-- =================================================================== -->
+	<name>RemoteSPELLScorpio</name>
+	<description>RemoteSPELL context</description>
+
+	<!-- =================================================================== -->
+	<!-- SPELL DRIVER TO BE USED -->
+	<!-- =================================================================== -->
+	<driver>RemoteSPELL</driver>
+
+	<!-- =================================================================== -->
+	<!-- SPACECRAFT INFORMATION -->
+	<!-- =================================================================== -->
+	<spacecraft>RemoteSPELL</spacecraft>
+	<satname>RemoteSPELL Spacecraft</satname>
+	<family>RemoteSPELL</family>
+	<gcs>N/A</gcs>
+
+	<!-- =================================================================== -->
+	<!-- DRIVER CONFIGURATION -->
+	<!-- =================================================================== -->
+	<driverconfig>
+		<property name="Simulation">RemoteSPELL.xml</property>
+	</driverconfig>
+
+	<!-- =================================================================== -->
+	<!-- EXECUTOR CONFIGURATION -->
+	<!-- =================================================================== -->
+	<executor>
+		<property name="ExecDelay">0</property>
+		<property name="PromptWarningDelay">0</property>
+		<property name="RunInto">False</property>
+		<property name="ByStep">False</property>
+		<property name="BrowsableLib">False</property>
+		<property name="MaxVerbosity">5</property>
+		<property name="SaveStateMode">DISABLED</property>
+		<property name="WatchVariables">DISABLED</property>
+	</executor>
+
+	<!-- =================================================================== -->
+	<!-- PROCEDURE INFORMATION -->
+	<!-- =================================================================== -->
+	<procpath>$SPELL_DATA/$SATNAME$/Procedures/</procpath>
+	<libpath>$SPELL_DATA/$SATNAME$/UserLib/</libpath>
+	<output_dir>$SPELL_DATA/$SATNAME$/OutputFiles/</output_dir>
+	<input_dir>$SPELL_DATA/$SATNAME$/InputFiles/</input_dir>
+
+	<!-- =================================================================== -->
+	<!-- DATABASE CONFIGURATION -->
+	<!-- =================================================================== -->
+	<databases>
+		<location name="SCDB" type="file" ext="DB">$SATNAME$/InputFiles/SpacecraftDB</location>
+		<location name="GDB" type="file" ext="DB">$SATNAME$/InputFiles/GroundDB</location>
+		<location name="mmd" type="file" ext="IMP">$SATNAME$/InputFiles/ManeuvreMessage</location>
+		<location name="usr" type="file" ext="IMP">$SATNAME$/InputFiles/User</location>
+		<location name="ar" type="asrun" ext="ASRUN">$SATNAME$/OutputFiles/AsRun</location>
+		<location name="ws" type="file" ext="WS">$SATNAME$/OutputFiles/Warmstart</location>
+		<location name="svn" type="file" ext="SVN">$SATNAME$/InputFiles/User</location>
+		<location name="eph_oscs2" type="eph_oscs2" ext="AFS">$SATNAME$/InputFiles/EphemerisFile</location>
+		<database name="SCDB" location="SCDB">SCDB</database>
+		<database name="GDB" location="GDB">GDB</database>
+	</databases>
+
+	<!-- =================================================================== -->
+	<!-- LANGUAGE DEFAULTS -->
+	<!-- this section allows overriding SPELL defaults for this context only -->
+	<!-- =================================================================== -->
+	<language>
+	</language>
+
+</context>

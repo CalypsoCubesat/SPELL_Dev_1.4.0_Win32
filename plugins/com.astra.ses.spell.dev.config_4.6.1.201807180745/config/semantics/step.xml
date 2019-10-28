@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+			<argument position="0" type="string"/>
+			<argument position="1" type="string,name"/>
+		</required>
+	</arguments>
+</rule>
+

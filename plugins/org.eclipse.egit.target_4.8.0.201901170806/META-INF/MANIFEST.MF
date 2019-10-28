@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.egit.target
+Bundle-Name: EGit Target Platform Bundle
+Bundle-Version: 4.8.0.201901170806
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+

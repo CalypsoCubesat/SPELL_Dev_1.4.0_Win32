@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.django;singleton:=true
+Bundle-Name: Pydev Django
+Bundle-Version: 6.0.0.201807180745
+Bundle-ClassPath: pydev_django.jar
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="[6.0.0,6.0.1)",org.python.p
+ ydev.core;bundle-version="[6.0.0,6.0.1)",org.junit;bundle-version="4.
+ 0";resolution:=optional,org.python.pydev.ast;bundle-version="[6.0.0,6
+ .0.1)",org.python.pydev.parser;bundle-version="[6.0.0,6.0.1)",org.ecl
+ ipse.ui.editors,org.eclipse.ui.workbench.texteditor,org.eclipse.core.
+ resources,org.eclipse.core.variables,org.eclipse.debug.core,org.eclip
+ se.debug.ui,org.python.pydev.debug;bundle-version="[6.0.0,6.0.1)",org
+ .eclipse.ui.console,org.python.pydev.jython;bundle-version="[6.0.0,6.
+ 0.1)",org.eclipse.search,org.eclipse.ui.ide,org.python.pydev.customiz
+ ations;bundle-version="[6.0.0,6.0.1)",org.eclipse.core.expressions,or
+ g.python.pydev.shared_ui;bundle-version="[6.0.0,6.0.1)",org.python.py
+ dev.shared_interactive_console;bundle-version="[6.0.0,6.0.1)"
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.django.DjangoPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Eclipse-BundleShape: dir
+
+

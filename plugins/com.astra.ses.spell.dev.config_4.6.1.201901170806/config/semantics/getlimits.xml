@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+			<modifier name="Select" type="name,constant,string" values="ALL,ACTIVE" combined="false"/>
+			<modifier name="Type" type="name,constant" values="Nominal,Warning,Ignore,Error,Delta,LoRed,LoYel,HiRed,HiYel,Midpoint,Tolerance" combined="true"/>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/>
+			<modifier name="Verbosity" type="num,name"/>
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+            <argument position="0" type="any"/>
+		</required>
+		<allowed>
+		</allowed>
+	</arguments>
+</rule>
+

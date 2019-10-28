@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.python.pydev.analysis; singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="[6.0.0,6.0.1)",com.python.p
+ ydev;bundle-version="[6.0.0,6.0.1)",org.junit;bundle-version="4.0";re
+ solution:=optional,org.python.pydev.core;bundle-version="[6.0.0,6.0.1
+ )",org.python.pydev.ast;bundle-version="[6.0.0,6.0.1)",org.python.pyd
+ ev.parser;bundle-version="[6.0.0,6.0.1)",org.eclipse.core.resources,o
+ rg.eclipse.ui.editors,org.eclipse.ui.workbench.texteditor,org.eclipse
+ .search,org.eclipse.ui.ide,org.python.pydev.jython;bundle-version="[6
+ .0.0,6.0.1)",org.python.pydev.debug;bundle-version="[6.0.0,6.0.1)",or
+ g.python.pydev.shared_ui;bundle-version="[6.0.0,6.0.1)",org.python.py
+ dev.shared_core;bundle-version="[6.0.0,6.0.1)",org.eclipse.ltk.core.r
+ efactoring,org.python.pydev.refactoring,org.eclipse.ltk.ui.refactorin
+ g,com.astra.ses.spell.dev.scheck,com.astra.ses.spell.language,com.ast
+ ra.ses.spell.dev.database
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: com.python.pydev.analysis,com.python.pydev.analysis.ac
+ tions,com.python.pydev.analysis.additionalinfo,com.python.pydev.analy
+ sis.additionalinfo.builders,com.python.pydev.analysis.additionalinfo.
+ dependencies,com.python.pydev.analysis.builder,com.python.pydev.analy
+ sis.ctrl_1,com.python.pydev.analysis.messages,com.python.pydev.analys
+ is.organizeimports,com.python.pydev.analysis.scopeanalysis,com.python
+ .pydev.analysis.tabnanny,com.python.pydev.analysis.ui,com.python.pyde
+ v.analysis.visitors
+Bundle-Name: Analysis Plug-in
+Bundle-Version: 6.0.0.201807180745
+Bundle-Localization: plugin
+Bundle-ClassPath: analysis.jar
+Bundle-Activator: com.python.pydev.analysis.AnalysisPlugin
+Eclipse-BundleShape: dir
+
+

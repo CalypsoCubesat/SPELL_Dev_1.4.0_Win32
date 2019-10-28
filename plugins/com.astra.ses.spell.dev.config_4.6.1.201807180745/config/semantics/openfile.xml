@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+			<modifier name="Mode" type="constant,name" values="READ,WRITE,READ_WRITE,APPEND" combined="false"/>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/> 
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+			<argument position="0" type="string,name"/>
+		</required>
+		<allowed>
+		</allowed>
+	</arguments>
+</rule>
+

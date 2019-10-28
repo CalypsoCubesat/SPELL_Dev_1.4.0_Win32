@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.egit.doc;singleton:=true
+Bundle-Name: %Bundle-Name
+Bundle-Version: 4.8.0.201807180745
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.mylyn.wikitext.core;bundle-version="[2.9.0
+ ,3.0.0)";resolution:=optional,org.eclipse.mylyn.wikitext.core.ant;bun
+ dle-version="[2.9.0,3.0.0)";resolution:=optional,org.eclipse.mylyn.wi
+ kitext.mediawiki.core.ant;bundle-version="[2.9.0,3.0.0)";resolution:=
+ optional,org.eclipse.mylyn.wikitext.mediawiki.core;bundle-version="[2
+ .9.0,3.0.0)";resolution:=optional,org.eclipse.ui.cheatsheets;bundle-v
+ ersion="[3.3.0,4.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+
+

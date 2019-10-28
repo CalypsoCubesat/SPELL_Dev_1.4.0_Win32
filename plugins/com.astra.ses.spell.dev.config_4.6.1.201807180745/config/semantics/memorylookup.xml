@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+			<modifier name="Name" type="string,name" /> 
+			<modifier name="Image" type="string,name" /> 
+			<modifier name="Type" type="string" values="ADA,Physical_Address,Logical_Address" combined="false" /> 
+			<modifier name="Source" type="string" values="" combined="false" /> 
+		</required>
+		<allowed>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/> 
+			<modifier name="Begin" type="string" /> 
+			<modifier name="End" type="string" /> 
+			<modifier name="ValueFormat" type="constant,name" values="RAW|ENG" combined="false" /> 
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+		</required>
+		<allowed>
+		</allowed>
+	</arguments>
+</rule>
+

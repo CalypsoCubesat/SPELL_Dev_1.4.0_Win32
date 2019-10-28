@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<configuration>
+    <!-- Database default properties -->
+    <!-- Database runtime properties may be changed in the project 
+        properties page-->
+        <database>
+            <!-- Driver name -->
+            <driver></driver>
+            <!-- Database path. Only local paths are allowed -->
+            <path></path>
+        </database>
+        <!-- END Database default properties -->
+    <!-- Project structure -->
+    <project>
+        <folder type="procedure" name="Procedures">
+            <package>Bus</package>
+            <package>Mission</package>
+            <package>Payload</package>
+            <package>Validation</package>
+        </folder>
+        <folder type="file" name="InputFiles">
+            <folder type="file" name="SpacecraftDB" />
+            <folder type="file" name="ManeuvreMessage" />
+        </folder>
+        <folder type="file" name="Simulator" />
+        <folder type="file" name="UserLib" />
+    </project>
+    <!-- END Project structure -->
+
+    <known-sats>STD,N12,QS1,A2B,A1M,A1N,A3B,A4B,A5B,A2F,A2G,A2E,SES01,SES02,SES03,SES04,SES05,SES06,SES07,SES08,SES09,AMC01,AMC02,AMC03,AMC04,AMC05,AMC06,AMC07,AMC08,AMC09,AMC10,AMC11,AMC12,AMC13,AMC14,AMC15,AMC16,AMC17,AMC18,AMC19,AMC20,AMC21,AAP01,CIEL2</known-sats>
+
+    <known-functions>
+        int, float, bin, bool, hex, set, type, isinstance, map, AND, OR, 
+        abs, min, max, sin, cos, asin, acos, tan, atan, pow, round, long, ceil,
+        len, str, repr, list, dict, keys, range, sorted, TIME, Var, DataContainer, File
+    </known-functions>
+
+    <discouraged-functions>
+        open, file, print, close, time, sleep, append, globals, locals, vars, eval, exec, lambda
+    </discouraged-functions>
+
+</configuration>

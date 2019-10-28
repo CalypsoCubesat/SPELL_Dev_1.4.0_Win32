@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.shared_ui;singleton:=true
+Require-Bundle: org.python.pydev.shared_core;bundle-version="[6.0.0,6.
+ 0.1)";visibility:=reexport,org.eclipse.ui;visibility:=reexport,org.ec
+ lipse.core.runtime;visibility:=reexport,org.eclipse.ui.workbench.text
+ editor;visibility:=reexport,org.eclipse.jface.text;visibility:=reexpo
+ rt,org.eclipse.ui.editors;visibility:=reexport,org.eclipse.core.resou
+ rces,org.eclipse.ui.ide,org.eclipse.ui.workbench,org.eclipse.ui.views
+ ,org.eclipse.ui.console,org.eclipse.e4.ui.services;resolution:=option
+ al,org.eclipse.e4.ui.css.swt.theme;resolution:=optional,org.eclipse.c
+ ore.filesystem,org.eclipse.debug.core,org.eclipse.debug.ui,org.eclips
+ e.search,org.eclipse.ltk.core.refactoring,org.eclipse.ltk.ui.refactor
+ ing,org.eclipse.ui.forms;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: org.python.pydev.overview_ruler,org.python.pydev.share
+ d_ui,org.python.pydev.shared_ui.actions,org.python.pydev.shared_ui.bi
+ ndings,org.python.pydev.shared_ui.bundle,org.python.pydev.shared_ui.c
+ ontent_assist,org.python.pydev.shared_ui.debug,org.python.pydev.share
+ d_ui.dialogs,org.python.pydev.shared_ui.editor,org.python.pydev.share
+ d_ui.editor_input,org.python.pydev.shared_ui.field_editors,org.python
+ .pydev.shared_ui.mark_occurrences,org.python.pydev.shared_ui.outline,
+ org.python.pydev.shared_ui.proposals,org.python.pydev.shared_ui.quick
+ _outline,org.python.pydev.shared_ui.search,org.python.pydev.shared_ui
+ .search.replace,org.python.pydev.shared_ui.swt,org.python.pydev.share
+ d_ui.templates,org.python.pydev.shared_ui.tooltips,org.python.pydev.s
+ hared_ui.tooltips.presenter,org.python.pydev.shared_ui.tree,org.pytho
+ n.pydev.shared_ui.utils,org.python.pydev.shared_ui.word_boundaries
+Bundle-Name: Shared Ui Plug-in
+Bundle-Version: 6.0.0.201807180745
+Bundle-ClassPath: shared_ui.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.shared_ui.SharedUiPlugin
+Eclipse-BundleShape: dir
+
+

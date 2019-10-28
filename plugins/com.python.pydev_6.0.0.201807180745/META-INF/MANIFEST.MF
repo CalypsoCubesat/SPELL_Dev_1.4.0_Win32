@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.python.pydev; singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="[6.0.0,6.0.1)",org.python.p
+ ydev.core;bundle-version="[6.0.0,6.0.1)",org.junit;bundle-version="4.
+ 0";resolution:=optional,org.python.pydev.ast;bundle-version="[6.0.0,6
+ .0.1)",org.python.pydev.parser;bundle-version="[6.0.0,6.0.1)",org.ecl
+ ipse.ui.editors,org.eclipse.ui.workbench.texteditor,org.eclipse.core.
+ resources,org.eclipse.core.variables,org.eclipse.debug.core,org.eclip
+ se.debug.ui,org.python.pydev.debug;bundle-version="[6.0.0,6.0.1)",org
+ .eclipse.ui.console,org.python.pydev.jython;bundle-version="[6.0.0,6.
+ 0.1)",org.eclipse.search,org.eclipse.ui.ide,org.python.pydev.shared_i
+ nteractive_console;bundle-version="[6.0.0,6.0.1)",org.python.pydev.sh
+ ared_ui;bundle-version="[6.0.0,6.0.1)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: com.python.pydev,com.python.pydev.actions,com.python.p
+ ydev.refactoring,com.python.pydev.ui.hierarchy,com.python.pydev.util
+Bundle-Name: Pydev Extensions
+Bundle-Version: 6.0.0.201807180745
+Bundle-Localization: plugin
+Bundle-ClassPath: pydev.jar
+Bundle-Activator: com.python.pydev.PydevPlugin
+Eclipse-BundleShape: dir
+
+

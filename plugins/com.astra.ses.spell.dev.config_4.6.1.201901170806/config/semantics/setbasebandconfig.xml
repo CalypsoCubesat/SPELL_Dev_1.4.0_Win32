@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/> 
+			<modifier name="ValueFormat" type="constant,name" values="ENG,RAW" combined="false"/> 
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+			<argument position="0" type="string,name"/>
+			<argument position="1" type="string,name,list"/>
+		</required>
+		<allowed>
+			<argument position="2" type="string,name"/>
+		</allowed>
+	</arguments>
+</rule>
+

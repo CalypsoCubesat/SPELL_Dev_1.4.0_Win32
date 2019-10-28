@@ -1,0 +1,4 @@
+#encoding=UTF-8
+#version=1
+org.eclipse.mylyn.git.core.source,1.15.0.v20170411-2003,plugins/org.eclipse.mylyn.git.core.source_1.15.0.v20170411-2003.jar,-1,false
+org.eclipse.mylyn.git.ui.source,1.15.0.v20170411-2003,plugins/org.eclipse.mylyn.git.ui.source_1.15.0.v20170411-2003.jar,-1,false

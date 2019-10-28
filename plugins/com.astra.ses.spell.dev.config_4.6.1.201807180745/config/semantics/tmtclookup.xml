@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+			<modifier name="Name" type="string,name" /> 
+			<modifier name="Type" type="string,name" combined="false" /> 
+			<modifier name="Source" type="string,name" values="" combined="false" /> 
+		</required>
+		<allowed>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/> 
+			<modifier name="Begin" type="string" /> 
+			<modifier name="End" type="string" /> 
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+		</required>
+		<allowed>
+		</allowed>
+	</arguments>
+</rule>
+

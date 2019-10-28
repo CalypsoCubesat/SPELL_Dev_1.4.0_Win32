@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.egit;singleton:=true
+Bundle-Name: %plugin_name
+Bundle-Version: 4.8.0.201807180745
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %provider_name
+
+

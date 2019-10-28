@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.python.pydev.codecompletion; singleton:=true
+Require-Bundle: com.astra.ses.spell.dev.database,org.eclipse.ui,org.ec
+ lipse.core.runtime,org.eclipse.jface.text,org.python.pydev.shared_cor
+ e;bundle-version="[6.0.0,6.0.1)",org.python.pydev.shared_ui;bundle-ve
+ rsion="[6.0.0,6.0.1)",org.python.pydev;bundle-version="[6.0.0,6.0.1)"
+ ,com.python.pydev;bundle-version="[6.0.0,6.0.1)",org.python.pydev.cor
+ e;bundle-version="[6.0.0,6.0.1)",org.python.pydev.parser;bundle-versi
+ on="[6.0.0,6.0.1)",org.junit;bundle-version="4.0";resolution:=optiona
+ l,com.python.pydev.fastparser;bundle-version="[6.0.0,6.0.1)",org.ecli
+ pse.core.resources,com.python.pydev.analysis;bundle-version="[6.0.0,6
+ .0.1)",org.eclipse.ui.editors,com.python.pydev.refactoring;bundle-ver
+ sion="[6.0.0,6.0.1)",org.python.pydev.shared_interactive_console;bund
+ le-version="[6.0.0,6.0.1)",org.eclipse.ui.workbench.texteditor
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: com.python.pydev.codecompletion,com.python.pydev.codec
+ ompletion.ctxinsensitive,com.python.pydev.codecompletion.parameter,co
+ m.python.pydev.codecompletion.participant,com.python.pydev.codecomple
+ tion.simpleassist,com.python.pydev.codecompletion.ui
+Bundle-Name: Codecompletion Plug-in
+Bundle-Version: 6.0.0.201807180745
+Bundle-Localization: plugin
+Bundle-ClassPath: codecompletion.jar
+Bundle-Activator: com.python.pydev.codecompletion.CodecompletionPlugin
+Eclipse-BundleShape: dir
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<allowed>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL,HANDLE,RESUME" combined="true"/> 
+			<modifier name="HandleError" type="bool,name"/>
+			<modifier name="PromptFailure" type="bool,name"/>
+			<modifier name="Notify" type="bool,name"/>
+			<modifier name="Verbosity" type="num,name"/>
+			<modifier name="config" type="dict,name"/>
+		</allowed>
+	</modifiers>
+</rule>
+

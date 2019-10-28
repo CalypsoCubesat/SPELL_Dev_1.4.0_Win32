@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rule>
+	<modifiers>
+		<required>
+		</required>
+		<allowed>
+			<modifier name="Select" type="name,constant,string" values="ALL,ACTIVE" combined="false"/>
+			<modifier name="LoRed" type="num,name"/>
+			<modifier name="LoYel" type="num,name"/>
+			<modifier name="HiYel" type="num,name"/>
+			<modifier name="HiRed" type="num,name"/>
+			<modifier name="Midpoint" type="num,name"/>
+			<modifier name="Tolerance" type="num,name"/>
+			<modifier name="Delta" type="num,name"/>
+			<modifier name="Nominal" type="list,name"/>
+			<modifier name="Warning" type="list,name"/>
+			<modifier name="Error" type="list,name"/>
+			<modifier name="Ignore" type="list,name"/>
+			<modifier name="Expected" type="string,name"/>
+			<modifier name="OnFailure" type="constant,name" values="ABORT,REPEAT,SKIP,CANCEL" combined="true"/>
+		</allowed>
+	</modifiers>
+
+	<arguments>
+		<required>
+            <argument position="0" type="any"/>
+		</required>
+		<allowed>
+            <argument position="1" type="name,dict"/>
+		</allowed>
+	</arguments>
+</rule>
+

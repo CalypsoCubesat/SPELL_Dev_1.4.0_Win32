@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.parser; singleton:=true
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.jface.text,org.python.pydev.core;bundle-
+ version="[6.0.0,6.0.1)";visibility:=reexport,org.eclipse.ui.editors,o
+ rg.eclipse.ui.workbench.texteditor
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.python.pydev.parser,org.python.pydev.parser.fastpa
+ rser,org.python.pydev.parser.fastparser.grammar_fstrings_common,org.p
+ ython.pydev.parser.grammar24,org.python.pydev.parser.grammar25,org.py
+ thon.pydev.parser.grammar26,org.python.pydev.parser.grammar27,org.pyt
+ hon.pydev.parser.grammar30,org.python.pydev.parser.grammar_fstrings,o
+ rg.python.pydev.parser.grammarcommon,org.python.pydev.parser.jython,o
+ rg.python.pydev.parser.jython.ast,org.python.pydev.parser.jython.ast.
+ factory,org.python.pydev.parser.prettyprinter,org.python.pydev.parser
+ .prettyprinterv2,org.python.pydev.parser.visitors,org.python.pydev.pa
+ rser.visitors.comparator,org.python.pydev.parser.visitors.scope
+Bundle-Name: Parser Plug-in
+Bundle-Version: 6.0.0.201901170806
+Bundle-ClassPath: parser.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.parser.ParserPlugin
+Eclipse-BundleShape: dir
+
+
